@@ -1,0 +1,28 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.MainBody {
+    margin-bottom: 60px;
+    background-color: #2b2f32; /* dark gray */
+    color: #FFFFFF !important; /* white text*/
+    background-image: url("resources/images/bicycleCourierDarkGreyBackground.JPG");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom;
+}
+
+.container {
+    color: #FFFFFF
+}
